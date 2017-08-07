@@ -11,22 +11,20 @@
   <body>
     <div id="sidebar">
       <div id="logo">
-        <%= link_to root_path %>
-          <%= image_tag "logo.svg" %>
-        <% end %>
+
       </div>
     </div>
-    
+
     <ul>
       <li class="category">Website</li>
       <li><%= link_to "blog", root_path %></li>
       <li>About</li>
     </ul>
-    
+
     <ul>
       <li class="category">Social</li>
     </ul>
-    
+
     <%= yield %>
   </body>
 </html>
